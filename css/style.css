@@ -1435,6 +1435,22 @@ header {
     margin-bottom: 20px;
 }
 
+.contact-icon, .contact-text {
+  display: inline-block;
+}
+
+.contact-icon {
+  margin-right: 8px;
+}
+
+.contact-text h5 {
+  margin-bottom: 8px;
+}
+
+.contact-info li {
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
 
 .contact-form .input:nth-child(1), .contact-form .input:nth-child(2) {
     width: calc(50% - 10px);
