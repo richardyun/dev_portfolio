@@ -1,0 +1,165 @@
+.skills-container {
+	display: flex;
+	justify-content: center;
+}
+.skills-icon {
+	height: 100px;
+	width: 100px;
+}
+.devicon-skills {
+    width: 100px;
+    height: 100px;
+}
+.skill-icon-area > h5 {
+	text-align: center;
+}
+.skill-icon-area {
+	text-align: center;
+}
+@media (max-width: 576px){
+    .col-xs-6 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        }
+}
+.hero{
+    background-position:center;
+}
+
+@media (max-width:576px){
+    .container.landing{max-width:310px};
+}
+
+.in-progress{
+    color:red;
+}
+#in-progress{
+    color:red;
+}
+a.in-progress{
+    color:red;
+}
+.navbar-brand{
+    transition: all 0.3s ease-out 0s;
+}
+
+.footer-area{
+    padding:2rem 0;
+}
+
+.alert-danger {
+    color: white;
+    background-color: rgb(231, 161, 95);
+    border-color: rgb(231, 161, 95);
+}
+
+.alert-danger li{
+    padding:.75rem;
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .mobile-container {
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .mobile-landscape {
+        min-height: 390px;
+        height: 0;
+    }
+    .home-arrow {
+        bottom: 25px;
+    }
+    .main-menu ul.navbar-nav {
+        margin-top: 0;
+    }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .mobile-container {
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .mobile-landscape {
+        min-height: 420px;
+        height: 0;
+    }
+    .home-arrow {
+        bottom: 25px;
+    }
+    .main-menu ul.navbar-nav {
+        margin-top: 0;
+    }
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .mobile-container {
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .mobile-landscape {
+        min-height: 400px;
+        height: 0;
+    }
+    .home-arrow {
+        bottom: 25px;
+    }
+    .main-menu ul.navbar-nav {
+        margin-top: 0;
+    }
+}
