@@ -4,6 +4,6 @@ Hi there! Welcome to my developer portfolio repo. If you have any questions or w
 richardyun.dev@gmail.com.
 
 ```javascript
-function hello() {
-  console.log("Thanks for stopping by, hope you're having a great one!");
+function greeting() {
+  console.log("Hope you have a wonderful day!");
 }
