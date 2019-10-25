@@ -16,6 +16,9 @@
 .skill-icon-area {
 	text-align: center;
 }
+#contact .row {
+  margin-bottom: 50px;
+}
 @media (max-width: 576px){
     .col-xs-6 {
         -webkit-box-flex: 0;
