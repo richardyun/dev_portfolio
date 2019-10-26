@@ -663,6 +663,11 @@ header {
     color: #fff;
 }
 
+.about-me img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
 
 /*------------------------------------*\
 	Portfolio
