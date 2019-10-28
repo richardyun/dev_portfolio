@@ -224,7 +224,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 /* --  Buttons  -- */
 
-.main-btn, .white-btn, .outline-btn {
+.main-btn, .white-btn, .dark-btn, .outline-btn {
     display: inline-block;
     padding: 10px 35px;
     margin: 3px;
@@ -242,6 +242,11 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 .white-btn {
     background: #FFF;
     color: #10161A !important;
+}
+
+.dark-btn {
+    background: #354052;
+    color: #FFF;
 }
 
 .outline-btn {
