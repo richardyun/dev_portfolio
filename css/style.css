@@ -198,29 +198,32 @@ ul, ol {
 
 /* --  Input  -- */
 
-input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="date"], input[type="url"], input[type="tel"], textarea {
+input[type="text"], input[type="email"], #message {
     height: 40px;
     width: 100%;
     border: none;
-	  background: #F4F4F4;
-    border-bottom: 2px solid #EEE;
+	  background: #FFF;
+    border: 2px solid #C0C0C0;
     color: #354052;
     padding: 0px 10px;
-    opacity: 0.5;
-    -webkit-transition: 0.2s border-color, 0.2s opacity;
-    transition: 0.2s border-color, 0.2s opacity;
+    /* opacity: 0.5; */
+    -webkit-transition: 0.2s border-color;
+    transition: 0.2s border-color;
 }
 
-textarea {
+#message {
     padding: 10px 10px;
-    min-height: 80px;
+    min-height: 100px;
     resize: vertical;
+    
 }
 
-input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, input[type="number"]:focus, input[type="date"]:focus, input[type="url"]:focus, input[type="tel"]:focus, textarea:focus {
+input[type="text"]:focus, input[type="email"]:focus, #message:focus {
     border-color: #228B22;
-    opacity: 1;
+    /* opacity: 1; */
 }
+
+textarea
 
 /* --  Buttons  -- */
 
