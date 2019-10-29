@@ -230,8 +230,8 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     margin: 3px;
     border: 2px solid transparent;
     border-radius: 3px;
-    -webkit-transition: 0.2s opacity;
-    transition: 0.2s opacity;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
 }
 
 .main-btn {
@@ -245,7 +245,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 .dark-btn {
-    background: #354052;
+    background: #777777;
     color: #FFF;
 }
 
@@ -255,8 +255,9 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     border-color: #6195FF;
 }
 
-.main-btn:hover, .white-btn:hover, .outline-btn:hover {
-    opacity: 0.8;
+.main-btn:hover, .white-btn:hover, .dark-btn:hover, .outline-btn:hover {
+    color: #FFF;
+    background: rgb(24, 119, 0);
 }
 
 
