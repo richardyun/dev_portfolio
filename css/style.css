@@ -348,12 +348,12 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     }
     .main-nav>li>a:hover, .main-nav>li>a:focus, .main-nav>li.active>a {
         background: transparent;
-        color: #6195FF;
+        color: rgb(24, 119, 0);
     }
     .main-nav>li>a:after {
         content: "";
         display: block;
-        background-color: #6195FF;
+        background-color: rgb(24, 119, 0);
         height: 2px;
         width: 0%;
         -webkit-transition: 0.2s width;
@@ -382,7 +382,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
         position: absolute;
         right: -50%;
         top: 0;
-        background-color: #6195FF;
+        background-color: rgb(24, 119, 0);
         width: 200px;
         -webkit-box-shadow: 0px 5px 5px -5px rgba(53, 64, 82, 0.2);
         box-shadow: 0px 5px 5px -5px rgba(53, 64, 82, 0.2);
@@ -470,10 +470,10 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
         transition: 0.2s all;
     }
     .main-nav>li.active {
-        border-left: 6px solid #6195FF;
+        border-left: 6px solid rgb(24, 119, 0);
     }
     .main-nav li a:hover, .main-nav li a:focus {
-        background-color: #6195FF;
+        background-color: rgb(24, 119, 0);
         color: #FFF;
         opacity: 1;
     }
