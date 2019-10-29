@@ -230,8 +230,8 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     margin: 3px;
     border: 2px solid transparent;
     border-radius: 3px;
-    -webkit-transition: 0.2s;
-    transition: 0.2s;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
 }
 
 .main-btn {
@@ -1505,6 +1505,15 @@ header {
   text-align: center;
   border-radius: 3px;
   color:#FFF;
+  -webkit-transition: 0.2s color;
+  transition: 0.2s color;
+}
+
+.footer-follow li a:hover {
+  text-decoration: none;
+  outline: none;
+  opacity: 0.8;
+  color: #228B22;
 }
 
 .footer-copyright p {
