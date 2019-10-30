@@ -19,6 +19,19 @@
 #contact .row {
   margin-bottom: 50px;
 }
+.home-arrow a {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  padding: 10px 35px;
+  margin: 3px;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  -webkit-transition: 0.2s opacity;
+  transition: 0.2s opacity;
+}
 @media (max-width: 576px){
     .col-xs-6 {
         -webkit-box-flex: 0;
