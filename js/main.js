@@ -42,6 +42,10 @@
 	// Btn nav collapse
 	$('#nav .nav-collapse').on('click', function() {
 		$('#nav').toggleClass('open');
+  });
+  
+  $("#nav .main-nav a[href^='#']").on('click', function() {
+		$('#nav').toggleClass('open');
 	});
 
 	///////////////////////////
