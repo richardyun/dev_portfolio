@@ -282,12 +282,10 @@ textarea
 }
 
 @media only screen and (max-width: 767px) {
-    #nav.nav-transparent .navbar-brand .logo-alt {
-        display: none !important;
+    .navbar-brand .logo, .navbar-brand .logo-alt {
         margin-left: 2vw;
     }
-    #nav.nav-transparent .navbar-brand .logo {
-        display: block !important;
+    .navbar-brand .logo, .navbar-brand .logo {
         margin-left: 2vw;
     }
 }
