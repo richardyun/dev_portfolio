@@ -17,11 +17,12 @@ Table OF Contents
 2 > Logo
 3 > Navigation
 4 > Header
-5 > About
+5 > Projects
 6 > Portfolio
+7 > About
 7 > Services
-8 >  Why choose us
-9 >  Numbers
+8 > Why choose us
+9 > Numbers
 10 > Pricing
 11 > Testimonial
 12 > Team
@@ -628,13 +629,11 @@ header {
 }
 
 
-
-
 /*------------------------------------*\
-	About
+	Projects
 \*------------------------------------*/
 
-.about {
+.project {
     position: relative;
     text-align: center;
     padding: 40px 20px;
@@ -642,13 +641,13 @@ header {
     margin: 15px 0px;
 }
 
-.about i {
+.project i {
     font-size: 36px;
     color: #228B22;
     margin-bottom: 20px;
 }
 
-.about:after {
+.project:after {
     content: "";
     background-color: #1C1D21;
     position: absolute;
@@ -661,20 +660,20 @@ header {
     transition: 0.2s width;
 }
 
-.about:hover:after {
+.project:hover:after {
     width: 100%;
 }
 
-.about h3 {
+.project h3 {
     -webkit-transition: 0.2s color;
     transition: 0.2s color;
 }
 
-.about:hover h3 {
+.project:hover h3 {
     color: #fff;
 }
 
-.about-me img {
+.project-me img {
   width: 100%;
   margin-bottom: 15px;
 }
@@ -792,6 +791,56 @@ header {
     -webkit-transition-delay: 0.2s;
     transition-delay: 0.2s;
     opacity: 1;
+}
+
+
+/*------------------------------------*\
+	About
+\*------------------------------------*/
+
+.about {
+  position: relative;
+  text-align: center;
+  padding: 40px 20px;
+  border: 1px solid #EEE;
+  margin: 15px 0px;
+}
+
+.about i {
+  font-size: 36px;
+  color: #228B22;
+  margin-bottom: 20px;
+}
+
+.about:after {
+  content: "";
+  background-color: #1C1D21;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 0%;
+  z-index: -1;
+  -webkit-transition: 0.2s width;
+  transition: 0.2s width;
+}
+
+.about:hover:after {
+  width: 100%;
+}
+
+.about h3 {
+  -webkit-transition: 0.2s color;
+  transition: 0.2s color;
+}
+
+.about:hover h3 {
+  color: #fff;
+}
+
+.about-me img {
+width: 100%;
+margin-bottom: 15px;
 }
 
 
@@ -1116,313 +1165,13 @@ header {
 	Blog
 \*------------------------------------*/
 
-.blog {
-    background-color: #FFF;
-    margin: 15px 0px;
-}
-
-.blog .blog-content {
-    padding: 20px 20px 40px;
-}
-
-.blog .blog-meta {
-    margin-bottom: 20px;
-}
-
-.blog .blog-meta li {
-    display: inline-block;
-    font-size: 14px;
-    color: #10161A;
-    margin-right: 10px;
-}
-
-.blog .blog-meta li i {
-    color: #228B22;
-    margin-right: 5px;
-}
-
 /*------------------------------------*\
 	Blog post
 \*------------------------------------*/
 
-#main .blog .blog-content {
-  padding: 20px 0px 0px;
-}
-
-#main .blog {
-  margin-top: 0px;
-}
-
-/* -- blog tags -- */
-
-.blog-tags {
-    margin: 40px 0px;
-}
-
-.blog-tags h5 {
-    margin-bottom: 0;
-    display: inline-block;
-}
-
-.blog-tags a {
-    display: inline-block;
-    padding: 6px 13px;
-    font-size: 14px;
-    margin: 2px 0px;
-    background: #F4F4F4;
-    color: #10161A;
-}
-
-.blog-tags a:hover {
-  color: #FFF;
-  background-color: #228B22;
-}
-
-.blog-tags a i {
-    margin-right: 3px;
-    color: #228B22;
-}
-
-.blog-tags a:hover i {
-  color: #FFF;
-}
-
-
-/* -- blog author -- */
-
-.blog-author {
-    margin: 40px 0px;
-}
-
-.blog-author .media .media-left {
-    padding-right: 20px;
-}
-
-.blog-author .media {
-    padding: 20px;
-    border: 1px solid #EEE;
-}
-
-.blog-author .media .media-heading {
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #EEE;
-}
-
-.blog-author .media .media-heading h3 {
-    display: inline-block;
-    margin: 0;
-    text-transform: uppercase;
-}
-
-.blog-author .media .media-heading .author-social {
-  float: right;
-}
-
-.blog-author .author-social a {
-    display: inline-block;
-    width: 24px;
-    height: 24px;
-    text-align: center;
-    line-height: 24px;
-    border-radius: 3px;
-    margin-left: 5px;
-    color: #FFF;
-    background-color: #228B22;
-}
-
-/* -- blog comments -- */
-
-.blog-comments {
-    margin: 40px 0px;
-}
-
-.blog-comments .media {
-    padding: 20px;
-    background-color: #FFF;
-    border-top: 1px solid #EEE;
-    border-bottom: 0px;
-    border-right: 1px solid #EEE;
-    border-left: 1px solid #EEE;
-    margin-top: 0px;
-}
-
-.blog-comments .media:first-child {
-    border-bottom: 0px;
-}
-
-.blog-comments .media:last-child {
-    border-bottom: 1px solid #EEE;
-}
-
-.blog-comments .media .media-left {
-  padding-right: 20px;
-}
-
-.blog-comments .media .media-body .media-heading {
-    text-transform: uppercase;
-    margin-bottom:10px;
-}
-
-.blog-comments .media .media-body .media-heading .time {
-    font-size: 12px;
-    margin-left: 20px;
-    font-weight: 400;
-    color: #868F9B;
-}
-
-.blog-comments .media .media-body .media-heading .reply {
-    float: right;
-    margin: 0;
-    font-size: 12px;
-    text-transform: uppercase;
-    font-weight: 400;
-}
-
-.blog-comments .media.author {
-    background-color: #F4F4F4;
-    border-color: #228B22;
-    border-bottom: 1px solid #228B22;
-}
-.blog-comments .media.author>.media-body>.media-heading {
-    color: #228B22;
-}
-
-.blog-comments .media.author + .media {
-    border-top: 0px;
-}
-
-/* blog reply form */
-
-.reply-form {
-    margin: 40px 0px;
-}
-
-.reply-form form .input, .reply-form form .input , .reply-form form textarea {
-	margin-bottom:20px;
-}
-
-.reply-form form .input, .reply-form form .input {
-    width: calc(50% - 10px);
-    display: inline-block;
-}
-
-.reply-form form .input:nth-child(2) {
-    margin-left: 15px;
-}
-
-
 /*------------------------------------*\
 	Blog sidebar
 \*------------------------------------*/
-
-#aside .widget {
-    margin-bottom: 40px;
-}
-
-.widget h3 {
-  text-transform: uppercase;
-}
-
-/* -- search sidebar -- */
-
-#aside .widget-search {
-    position: relative;
-}
-
-#aside .widget-search .search-input {
-    padding-right: 50px;
-}
-
-#aside .widget-search .search-btn {
-    position: absolute;
-    right: 0px;
-	  bottom: 0px;
-    width: 40px;
-    height: 40px;
-    border: none;
-    line-height: 40px;
-    background-color: transparent;
-    color: #228B22;
-}
-
-/* -- category sidebar -- */
-
-.widget-category a {
-    display: block;
-    font-size: 14px;
-    color: #354052;
-    border-bottom: 1px solid #EEE;
-    padding: 5px;
-}
-
-.widget-category a:nth-child(1) {
-  border-top: 1px solid #EEE;
-}
-
-.widget-category a span {
-    float: right;
-    color: #228B22;
-}
-
-.widget-category a:hover {
-    color: #228B22;
-}
-
-/* -- tags sidebar -- */
-
-.widget-tags a {
-  display: inline-block;
-  padding: 6px 13px;
-  font-size: 14px;
-  margin: 2px 0px;
-  background: #F4F4F4;
-  color: #10161A;
-}
-
-.widget-tags a:hover {
-  color: #FFF;
-  background-color: #228B22;
-}
-
-/* -- posts sidebar -- */
-
-.widget-post {
-    min-height: 70px;
-    margin-bottom: 25px;
-}
-
-.widget-post img {
-    display: block;
-    float: left;
-    margin-right: 10px;
-    margin-top: 5px;
-}
-
-.widget-post a {
-    display: block;
-    color: #10161A;
-}
-
-.widget-post a:hover {
-    color: #228B22;
-}
-
-.widget-post .blog-meta {
-    display: inline-block;
-}
-
-.widget-post .blog-meta li {
-    display: inline-block;
-    margin-right: 5px;
-    color: #228B22;
-    font-size: 12px;
-}
-
-.widget-post li i {
-    color: #228B22;
-    margin-right: 5px;
-}
 
 
 
