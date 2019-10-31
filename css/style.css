@@ -508,65 +508,29 @@ textarea
 /* -- nav btn collapse -- */
 
 .nav-collapse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     float: right;
     width: 40px;
     height: 40px;
     margin-top: 5px;
-    margin-right: 5px;
+    margin-right: 3vw;
     cursor: pointer;
     z-index: 99999;
 }
-
-.nav-collapse span {
-    display: block;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 25px;
+#nav:not(.nav-transparent):not(.fixed-nav) .nav-collapse {
+	color: #FFF;
 }
-
-.nav-collapse span:before, .nav-collapse span:after {
-    content: "";
-    display: block;
+#nav.nav-transparent:not(.fixed-nav) .nav-collapse {
+	color: #FFF;
 }
-
-.nav-collapse span, .nav-collapse span:before, .nav-collapse span:after {
-    height: 4px;
-    background: #10161A;
-    -webkit-transition: 0.2s all;
-    transition: 0.2s all;
+#nav.fixed-nav .nav-collapse {
+    color: #868F9B;
 }
-
-.nav-collapse span:before {
-    -webkit-transform: translate(0%, 10px);
-    -ms-transform: translate(0%, 10px);
-    transform: translate(0%, 10px);
-}
-
-.nav-collapse span:after {
-    -webkit-transform: translate(0%, -14px);
-    -ms-transform: translate(0%, -14px);
-    transform: translate(0%, -14px);
-}
-
-#nav.open .nav-collapse span {
+#nav.open .nav-collapse {
     background: transparent;
-}
-
-#nav.open .nav-collapse span:before {
-    -webkit-transform: translateY(0px) rotate(-135deg);
-    -ms-transform: translateY(0px) rotate(-135deg);
-    transform: translateY(0px) rotate(-135deg);
-}
-
-#nav.open .nav-collapse span:after {
-    -webkit-transform: translateY(-4px) rotate(135deg);
-    -ms-transform: translateY(-4px) rotate(135deg);
-    transform: translateY(-4px) rotate(135deg);
 }
 
 
