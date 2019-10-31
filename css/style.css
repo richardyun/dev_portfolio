@@ -430,7 +430,7 @@ textarea
         padding: 0px 0px;
     }
     #nav.nav-transparent {
-        background: #FFF;
+        background: transparent;
     }
     .main-nav {
         position: fixed;
