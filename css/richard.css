@@ -41,7 +41,6 @@
   color: #FFF;
 }
 
-
 @media (max-width: 576px){
     .col-xs-6 {
         -webkit-box-flex: 0;
