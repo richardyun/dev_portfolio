@@ -86,6 +86,11 @@ a:hover, a:focus {
     color: #228B22;
 }
 
+a:focus {
+  background-color: #228B22;
+  color: #FFF;
+}
+
 .main-color {
     color: #228B22;
 }
