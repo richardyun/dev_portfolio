@@ -559,37 +559,47 @@ header {
 }
 .home-content {
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .home-content h1 {
   text-transform: uppercase;
+  text-align: center;
+}
+.home-content a {
+  width: 150px;
 }
 .home-name {
   font-family: 'Red Hat Display', sans-serif;
-  /* font-size: 8rem; */
-  letter-spacing: .25rem;
+  font-size: 7rem;
+  letter-spacing: 2rem;
+  margin-left: 2rem;
 }
 .home-content button {
   margin-top: 20px;
 }
-
 .header-wrapper h2 {
     display: inline-block;
     margin-bottom: 0px;
 }
-
 .header-wrapper .breadcrumb {
     float: right;
     background: transparent;
     margin-bottom: 0px;
 }
-
 .header-wrapper .breadcrumb .breadcrumb-item.active {
     color: #868F9B;
 }
-
 .breadcrumb>li+li:before {
     color: #868F9B;
+}
+
+@media only screen and (max-width: 767px) {
+    .home-name {
+        letter-spacing: .8rem;
+        margin-left: .8rem;
+    }
 }
 
 
