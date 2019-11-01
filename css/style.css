@@ -557,9 +557,17 @@ header {
     transform: translateY(-50%);
     text-align: center;
 }
-
+.home-content {
+  display: flex;
+  flex-direction: column;  
+}
 .home-content h1 {
   text-transform: uppercase;
+}
+.home-name {
+  font-family: 'Red Hat Display', sans-serif;
+  /* font-size: 8rem; */
+  letter-spacing: .25rem;
 }
 .home-content button {
   margin-top: 20px;
