@@ -805,48 +805,57 @@ margin-bottom: 15px;
 \*------------------------------------*/
 
 .contact {
-    margin: 15px 0px;
-    text-align: center;
+  margin: 15px 0px;
+  text-align: center;
 }
 
-.contact i {
-    font-size: 36px;
-    color: #228B22;
-    margin-bottom: 20px;
+.contact-icon i {
+  color: #228B22;
+  margin-bottom: 20px;
 }
 
 .contact-form {
-    text-align: center;
-    margin-top: 5px;
+  text-align: center;
+  margin-top: 5px;
 }
 
 .contact-form .input {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .contact-icon, .contact-text {
-  display: inline-block;
+display: inline-block;
 }
 
 .contact-icon {
-  margin-right: 8px;
+margin-right: 8px;
 }
 
 .contact-text h5 {
-  margin-bottom: 8px;
+margin-bottom: 8px;
+}
+
+.contact-text a {
+-webkit-transition: 0.2s color;
+transition: 0.2s color;
+color: #868F9B;
+}
+
+.contact-text a:hover {
+color: #228B22;
 }
 
 .contact-info li {
-  margin-bottom: 20px;
-  padding-top: 20px;
+margin-bottom: 20px;
+padding-top: 20px;
 }
 
 .contact-form .input:nth-child(1), .contact-form .input:nth-child(2) {
-    width: calc(50% - 10px);
+  width: calc(50% - 10px);
 }
 
 .contact-form .input:nth-child(2) {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 
 /*------------------------------------*\
