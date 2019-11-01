@@ -322,6 +322,42 @@ textarea
     background: transparent;
 }
 
+/* -- nav btn collapse -- */
+
+.nav-collapse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  float: right;
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  margin-right: 3vw;
+  cursor: pointer;
+  z-index: 99999;
+  font-size: 2.5rem;
+}
+#nav .nav-collapse:after {
+  content: "\f0c9";
+  font-family: 'FontAwesome';
+}
+#nav.open .nav-collapse:after {
+  content: "\f00d";
+  font-family: 'FontAwesome';
+}
+#nav:not(.nav-transparent):not(.fixed-nav) .nav-collapse {
+  color: #FFF;
+  border: 2px solid #FFF;
+}
+#nav.nav-transparent:not(.fixed-nav) .nav-collapse {
+  color: #FFF;
+  border: 2px solid #FFF;
+}
+#nav.fixed-nav .nav-collapse {
+  color: #868F9B;
+  border: 2px solid #868F9B;
+}
 
 /* -- default nav -- */
 
@@ -505,42 +541,7 @@ textarea
 }
 
 
-/* -- nav btn collapse -- */
 
-.nav-collapse {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    float: right;
-    width: 40px;
-    height: 40px;
-    margin-top: 5px;
-    margin-right: 3vw;
-    cursor: pointer;
-    z-index: 99999;
-    font-size: 2.5rem;
-}
-#nav .nav-collapse:after {
-    content: "\f0c9";
-    font-family: 'FontAwesome';
-}
-#nav.open .nav-collapse:after {
-    content: "\f00d";
-    font-family: 'FontAwesome';
-}
-#nav:not(.nav-transparent):not(.fixed-nav) .nav-collapse {
-    color: #FFF;
-    border: 2px solid #FFF;
-}
-#nav.nav-transparent:not(.fixed-nav) .nav-collapse {
-    color: #FFF;
-    border: 2px solid #FFF;
-}
-#nav.fixed-nav .nav-collapse {
-    color: #868F9B;
-    border: 2px solid #868F9B;
-}
 
 
 /*------------------------------------*\
