@@ -36,8 +36,11 @@
   -webkit-transition: 0.2s opacity;
   transition: 0.2s opacity;
   cursor: pointer;
+  font-size: 1.75rem;
 }
-.down-arrow i {
+.down-arrow:after {
+  content: "\f103";
+  font-family: 'fontAwesome';
   color: #FFF;
 }
 
